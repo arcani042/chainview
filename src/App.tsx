@@ -20,10 +20,10 @@ export default function App() {
         <div style={styles.container}>
           <div style={styles.hero}>
             <h1 style={styles.heroTitle}>
-              Build on <span style={styles.heroAccent}>Arc</span>
+              Chain<span style={styles.heroAccent}>View</span>
             </h1>
             <p style={styles.heroSub}>
-              Stablecoin-native L1 - Bridge USDC to Arc Testnet
+              Your onchain dashboard for Arc Testnet
             </p>
           </div>
           {wallet.error && (
