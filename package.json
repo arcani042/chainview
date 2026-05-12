@@ -11,10 +11,15 @@
   "dependencies": {
     "@circle-fin/adapter-viem-v2": "^1.8.3",
     "@circle-fin/app-kit": "^1.4.1",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.0.0",
     "buffer": "^6.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "viem": "^2.48.7"
+    "typescript": "^5.0.0",
+    "viem": "^2.48.7",
+    "vite": "^5.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.0",
