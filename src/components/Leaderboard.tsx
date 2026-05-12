@@ -16,7 +16,7 @@ export function Leaderboard() {
     setLoading(true)
     setError(null)
     try {
-      const response = await fetch('https://testnet.arcscan.app/api/v2/transactions?page_size=50')
+      const response = await fetch('https://testnet.arcscan.app/api/v2/transactions?limit=50')
       const data = await response.json()
       const txCounts: Record<string, number> = {}
       data.items.forEach((tx: any) => {
